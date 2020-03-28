@@ -9,7 +9,7 @@
 * [FileTreeAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/FileTreeAdapter.kt )
 
 #### Image
-![image](../image/tree_adapter.gif)
+![tree_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/tree_adapter.gif?raw=true)
 
 ### Usage
 

@@ -8,7 +8,7 @@
 * [ExpandSampleAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/ExpandSampleAdapter.java)
 
 #### Image
-![image](../image/expand_adapter.gif)
+![expand_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/expand_adapter.gif?raw=true)
 
 ### Usage
 

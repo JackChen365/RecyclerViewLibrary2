@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
+import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.adapter.WrapperAdapter
 import com.cz.widget.recyclerview.adapter.support.tree.TreeAdapter
 import com.cz.widget.recyclerview.adapter.support.tree.TreeNode
@@ -32,6 +33,7 @@ import kotlin.random.Random
  * @email bingo110@126.com
  */
 @SampleSourceCode
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/TreeAdapter.md")
 @RefRegister(title=R.string.tree_adapter,desc = R.string.tree_adapter_desc,category = R.string.adapter)
 class TreeSampleActivity : SampleAppCompatActivity() {
     companion object{

@@ -7,11 +7,13 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
+import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.adapter.impl.SimpleFilterAdapter
 import kotlinx.android.synthetic.main.activity_adapter_filter_sample.*
 
 @SampleSourceCode
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/FilterAdapter.md")
 @RefRegister(title=R.string.filter,desc = R.string.filter_desc,category = R.string.adapter)
 class FilterSampleActivity : SampleAppCompatActivity() {
 

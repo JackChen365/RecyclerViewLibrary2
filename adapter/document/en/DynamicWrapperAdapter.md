@@ -9,7 +9,7 @@
 * [DynamicSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DynamicSampleActivity.kt)
 
 #### Image
-![image](../image/dynamic_adapter.gif)
+![dynamic_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/dynamic_adapter.gif?raw=true)
 
 ### How does it work
 

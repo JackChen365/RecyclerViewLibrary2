@@ -12,15 +12,15 @@ We use those features to implements a few views.
 * [Gallery](document/en/Gallery.md)
 * [Wheel](document/en/Wheel.md)
 
-![viewpager](document/image/viewpager.gif)
+![viewpager](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/viewpager.gif?raw=true)
 
-![gallery](document/image/gallery.gif)
+![gallery](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/gallery.gif?raw=true)
 
-![wheel](document/image/wheel.gif)
+![wheel](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/wheel.gif?raw=true)
 
 All the views base on this class:CenterLayoutManager
 
-![CenterLayoutManager](document/image/center_layoutmangaer.gif)
+![CenterLayoutManager](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/center_layoutmangaer.gif?raw=true)
 
 
 

@@ -78,18 +78,18 @@ pullToRefreshLayout.setOnPullToRefreshListener {
 * FollowStrategy
 > The most popular strategy that the header will follow the content.
 
-![image](document/image/image1.gif)
+![image1](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/pulltorefresh/image1.gif?raw=true)
 
 
 * OverlayStrategy
 > Only allow content scroll, and stick the header in the back.
 
-![image](document/image/image2.gif)
+![image](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/pulltorefresh/image2.gif?raw=true)
 
 * FrontStrategy
 > The official style. Like: SwipeRefreshLayout. The header follows the finger but the content was stilling
 
-![image](document/image/image3.gif)
+![image](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/pulltorefresh/image3.gif?raw=true)
 
 
 * How does vector work?
@@ -118,7 +118,7 @@ Also take a look at this program library:[RichPath](https://github.com/tarek360/
 
 This is an example for vector header
 
-![image4](document/image/image4.gif)
+![image](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/pulltorefresh/image4.gif?raw=true)
 
 
 ### About the style

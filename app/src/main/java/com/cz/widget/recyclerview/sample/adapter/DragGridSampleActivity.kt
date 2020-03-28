@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
+import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.adapter.wrapper.drag.DragWrapperAdapter
 import com.cz.widget.recyclerview.adapter.wrapper.dynamic.DynamicWrapperAdapter
 import com.cz.widget.recyclerview.sample.R
@@ -16,6 +17,7 @@ import com.cz.widget.recyclerview.sample.adapter.impl.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_adapter_drag_sample.*
 
 @SampleSourceCode
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DragAdapter.md")
 @RefRegister(title=R.string.drag_adapter,desc = R.string.drag_adapter_desc,category = R.string.adapter)
 class DragGridSampleActivity : SampleAppCompatActivity() {
     private var colorList = mutableListOf(-0x1000000, -0xbbbbbc ,-0x777778, -0x333334, -0x1,-0x10000,-0xff0100,-0xffff01,-0x100,-0xff0001,-0xff01)

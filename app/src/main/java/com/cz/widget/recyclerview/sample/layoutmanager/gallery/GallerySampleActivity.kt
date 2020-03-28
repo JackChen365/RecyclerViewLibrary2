@@ -10,6 +10,7 @@ import com.cz.widget.recyclerview.sample.R
 import kotlinx.android.synthetic.main.activity_gallery_sample.*
 
 @SampleSourceCode
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/layoutmanager/document/en/Gallery.md")
 @RefRegister(title = R.string.gallery,desc = R.string.gallery_desc,category = R.string.layout_manager)
 class GallerySampleActivity : SampleAppCompatActivity() {
 

@@ -7,7 +7,7 @@
 * [HeaderSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/HeaderSampleActivity.kt)
 
 #### Image
-![image](../image/header_adapter.gif)
+![header_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/header_adapter.gif?raw=true)
 
 #### Usage
 

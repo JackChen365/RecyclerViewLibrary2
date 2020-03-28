@@ -14,7 +14,7 @@ The first time looks like this:[B,A,B] Then after you move to the next position.
 * [GallerySampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/GallerySampleActivity.kt)
 
 #### Image
-![image](../image/gallery.gif)
+![gallery](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/gallery.gif?raw=true)
 
 ### Usage
 

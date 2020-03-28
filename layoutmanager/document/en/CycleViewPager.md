@@ -8,7 +8,7 @@
 * [ViewPagerImageAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/viewpager/adapter/ViewPagerImageAdapter.kt)
 
 #### Image
-![image](../image/viewpager.gif)
+![viewpager](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/viewpager.gif?raw=true)
 
 ### Usage
 

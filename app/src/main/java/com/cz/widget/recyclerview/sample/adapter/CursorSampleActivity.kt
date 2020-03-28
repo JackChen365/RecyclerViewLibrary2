@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
+import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.adapter.db.SampleDatabaseHelper
 import com.cz.widget.recyclerview.sample.adapter.db.SimpleCursorLoader
@@ -44,6 +45,7 @@ import kotlinx.android.synthetic.main.activity_adapter_cursor_sample.*
  * </pre>
  */
 @SampleSourceCode
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/CursorAdapter.md")
 @RefRegister(title=R.string.cursor_adapter,desc = R.string.cursor_adapter_desc,category = R.string.adapter)
 class CursorSampleActivity : SampleAppCompatActivity(), LoaderManager.LoaderCallbacks<Cursor> {
     companion object{

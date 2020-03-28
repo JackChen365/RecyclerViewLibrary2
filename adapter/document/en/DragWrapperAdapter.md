@@ -8,7 +8,7 @@
 * [DragNewsSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DragNewsSampleActivity.kt)
 
 #### Image
-![image](../image/drag_adapter.gif)
+![drag_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/drag_adapter.gif?raw=true)
 
 ### Usage
 

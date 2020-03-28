@@ -9,7 +9,7 @@
 * [Sample](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/CursorSampleActivity.java)
 
 #### Image
-![image](../image/cursor_adapter.gif)
+![cursor_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/cursor_adapter.gif?raw=true)
 
 ### Usage
 

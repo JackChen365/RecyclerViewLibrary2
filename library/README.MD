@@ -22,9 +22,9 @@ Here are the typical features we supports:
 | attr name="layout_adapterView" format="resources" | Add footer or header view in XML |
 
 
-![image1](image/image1.gif)
+![image1](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/library/image1.gif?raw=true)
 
-![image2](image/image2.gif)
+![image2](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/library/image2.gif?raw=true)
 
 ### Usage
 

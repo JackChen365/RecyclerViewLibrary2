@@ -17,7 +17,7 @@ The first time looks like this:[B,A,B] Then after you move to the next position.
 * [CenterItemDecoration](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/CenterItemDecoration.kt)
 
 #### Image
-![image](../image/wheel.gif)
+![wheel](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/wheel.gif?raw=true)
 
 ### Usage
 

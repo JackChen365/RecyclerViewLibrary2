@@ -13,7 +13,7 @@ We support three different choice-mode.
 * [SelectSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/SelectSampleActivity.kt)
 
 #### Image
-![image](../image/select_adapter.gif)
+![select_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/select_adapter.gif?raw=true)
 
 ### Usage
 

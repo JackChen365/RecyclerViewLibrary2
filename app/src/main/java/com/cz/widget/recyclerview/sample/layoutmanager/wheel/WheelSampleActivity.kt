@@ -8,6 +8,7 @@ import android.widget.TextView
 import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
+import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.layoutmanager.widget.AbsCycleLayout
 import com.cz.widget.recyclerview.sample.R
 import com.google.android.material.animation.ArgbEvaluatorCompat
@@ -16,6 +17,7 @@ import java.text.DecimalFormat
 import java.util.*
 
 @SampleSourceCode
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/layoutmanager/document/en/Wheel.md")
 @RefRegister(title = R.string.wheel,desc = R.string.wheel_desc,category = R.string.layout_manager)
 class WheelSampleActivity : SampleAppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

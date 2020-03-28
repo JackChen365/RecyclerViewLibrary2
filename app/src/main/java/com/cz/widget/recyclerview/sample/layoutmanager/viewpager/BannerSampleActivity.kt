@@ -8,6 +8,7 @@ import androidx.core.view.ViewCompat
 import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
+import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.layoutmanager.viewpager.CycleViewPager
 import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.layoutmanager.viewpager.adapter.ViewPagerImageAdapter
@@ -15,6 +16,7 @@ import kotlinx.android.synthetic.main.activity_banner_sample.*
 import java.util.*
 
 @SampleSourceCode
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/layoutmanager/document/en/CycleViewPager.md")
 @RefRegister(title = R.string.view_pager_banner,desc = R.string.view_pager_banner_desc,category = R.string.view_pager)
 class BannerSampleActivity : SampleAppCompatActivity() {
 

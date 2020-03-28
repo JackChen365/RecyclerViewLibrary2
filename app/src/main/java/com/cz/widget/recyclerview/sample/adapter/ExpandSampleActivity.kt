@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
+import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.adapter.WrapperAdapter
 import com.cz.widget.recyclerview.adapter.support.expand.ExpandAdapter
 import com.cz.widget.recyclerview.adapter.wrapper.header.HeaderWrapperAdapter
@@ -19,6 +20,7 @@ import kotlinx.android.synthetic.main.activity_adapter_expand_sample.*
 import kotlin.random.Random
 
 @SampleSourceCode
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/ExpandAdapter.md")
 @RefRegister(title=R.string.expand_adapter,desc = R.string.expand_adapter_desc,category = R.string.adapter)
 class ExpandSampleActivity : SampleAppCompatActivity() {
     private var colorList = mutableListOf(-0x1000000, -0xbbbbbc ,-0x777778, -0x333334, -0x1,-0x10000,-0xff0100,-0xffff01,-0x100,-0xff0001,-0xff01)

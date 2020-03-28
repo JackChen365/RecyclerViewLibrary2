@@ -14,7 +14,7 @@
 * [StickySimple3Adapter](app/src/main/java/com/cz/widget/recyclerview/sample/sticky/adapter/StickySimple3Adapter.kt)
 
 #### Image
-![image](../image/sticky_adapter.gif)
+![sticky_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/sticky_adapter.gif?raw=true)
 
 ### Usage
 

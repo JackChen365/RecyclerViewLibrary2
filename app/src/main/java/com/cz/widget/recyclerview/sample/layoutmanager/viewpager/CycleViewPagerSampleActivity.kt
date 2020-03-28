@@ -9,6 +9,7 @@ import android.widget.Spinner
 import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
+import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.layoutmanager.viewpager.CycleViewPager
 import com.cz.widget.recyclerview.layoutmanager.widget.AbsCycleLayout
 import com.cz.widget.recyclerview.sample.R
@@ -17,6 +18,7 @@ import com.cz.widget.recyclerview.sample.view.CheckLayout
 import kotlinx.android.synthetic.main.activity_cycle_view_pager_sample.*
 
 @SampleSourceCode
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/layoutmanager/document/en/CycleViewPager.md")
 @RefRegister(title = R.string.view_pager,desc = R.string.view_pager_desc,category = R.string.view_pager)
 class CycleViewPagerSampleActivity : SampleAppCompatActivity() {
     companion object {

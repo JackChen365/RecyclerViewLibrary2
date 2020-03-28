@@ -8,7 +8,7 @@
 * [SimpleFilterAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/SimpleFilterAdapter.kt)
 
 #### Image
-![image](../image/filter_adapter.gif)
+![filter_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/filter_adapter.gif?raw=true)
 
 ### Usage
 
