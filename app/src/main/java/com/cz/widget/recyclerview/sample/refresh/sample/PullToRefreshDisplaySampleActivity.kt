@@ -8,7 +8,7 @@ import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.refresh.header.DisplayHeader
 import kotlinx.android.synthetic.main.activity_pull_to_refresh_display_sample.*
 
-@SampleSourceCode
+@SampleSourceCode(".*PullToRefreshDisplaySampleActivity.*")
 @RefRegister(title=R.string.pull_to_refresh_title2,desc = R.string.pull_to_refresh_desc2,category = R.string.pull_to_refresh)
 class PullToRefreshDisplaySampleActivity : SampleAppCompatActivity() {
 

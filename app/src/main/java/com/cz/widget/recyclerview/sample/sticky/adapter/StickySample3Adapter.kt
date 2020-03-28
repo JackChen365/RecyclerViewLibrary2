@@ -14,7 +14,7 @@ import com.cz.widget.recyclerview.sample.R
 /**
  * Created by cz on 16/1/23.
  */
-class StickySimple3Adapter<E>(context: Context, @param:LayoutRes private val layout: Int, itemList: List<E>) : StickyAdapter<RecyclerView.ViewHolder, E>(itemList) {
+class StickySample3Adapter<E>(context: Context, @param:LayoutRes private val layout: Int, itemList: List<E>) : StickyAdapter<RecyclerView.ViewHolder, E>(itemList) {
     val layoutInflater: LayoutInflater = LayoutInflater.from(context)
 
     constructor(context: Context, items: List<E>) : this(context, R.layout.sticky_adapter_simple_text2_item, items)

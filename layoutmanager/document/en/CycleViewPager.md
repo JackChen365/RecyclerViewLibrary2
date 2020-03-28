@@ -4,8 +4,8 @@
 
 #### Example classes:
 
-* [CycleViewPagerSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/viewpager/CycleViewPagerSampleActivity.kt)
-* [ViewPagerImageAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/viewpager/adapter/ViewPagerImageAdapter.kt)
+* [CycleViewPagerSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/viewpager/CycleViewPagerSampleActivity.kt)
+* [ViewPagerImageAdapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/viewpager/adapter/ViewPagerImageAdapter.kt)
 
 #### Image
 ![viewpager](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/viewpager.gif?raw=true)

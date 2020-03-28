@@ -5,8 +5,8 @@
 
 #### Example classes:
 
-* [TreeSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/TreeSampleActivity.kt)
-* [FileTreeAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/FileTreeAdapter.kt )
+* [TreeSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/TreeSampleActivity.kt)
+* [FileTreeAdapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/FileTreeAdapter.kt )
 
 #### Image
 ![tree_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/tree_adapter.gif?raw=true)

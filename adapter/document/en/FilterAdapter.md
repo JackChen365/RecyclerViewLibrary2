@@ -4,8 +4,8 @@
 
 ### Example classes:
 
-* [FilterSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/FilterSampleActivity.kt)
-* [SimpleFilterAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/SimpleFilterAdapter.kt)
+* [FilterSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/FilterSampleActivity.kt)
+* [SimpleFilterAdapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/SimpleFilterAdapter.kt)
 
 #### Image
 ![filter_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/filter_adapter.gif?raw=true)

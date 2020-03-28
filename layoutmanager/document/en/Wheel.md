@@ -11,10 +11,10 @@ The first time looks like this:[B,A,B] Then after you move to the next position.
 
 #### Example classes:
 
-* [WheelSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/WheelSampleActivity.kt)
-* [WheelVerticalDateAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/WheelVerticalDateAdapter.kt)
-* [WheelHorizontalDateAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/WheelHorizontalDateAdapter.kt)
-* [CenterItemDecoration](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/CenterItemDecoration.kt)
+* [WheelSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/WheelSampleActivity.kt)
+* [WheelVerticalDateAdapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/WheelVerticalDateAdapter.kt)
+* [WheelHorizontalDateAdapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/WheelHorizontalDateAdapter.kt)
+* [CenterItemDecoration](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/CenterItemDecoration.kt)
 
 #### Image
 ![wheel](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/wheel.gif?raw=true)

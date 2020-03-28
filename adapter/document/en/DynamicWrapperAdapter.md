@@ -6,7 +6,7 @@
 
 #### Example classes:
 
-* [DynamicSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DynamicSampleActivity.kt)
+* [DynamicSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DynamicSampleActivity.kt)
 
 #### Image
 ![dynamic_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/dynamic_adapter.gif?raw=true)
@@ -116,7 +116,7 @@ We won't change your own adapter but you could insert anything into the adapter.
 
 There is one example cooperate with the DragWrapperAdapter.
 
-The news channel example:[DragNewsSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DragNewsSampleActivity.kt)
+The news channel example:[DragNewsSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DragNewsSampleActivity.kt)
 
 More detail check the class:[DynamicAdapterAdapter](adapter/src/main/java/com/cz/widget/recyclerview/adapter/wrapper/dynamic/DynamicWrapperAdapter.java )
 

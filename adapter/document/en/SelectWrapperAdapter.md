@@ -10,7 +10,7 @@ We support three different choice-mode.
 
 #### Example classes:
 
-* [SelectSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/SelectSampleActivity.kt)
+* [SelectSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/SelectSampleActivity.kt)
 
 #### Image
 ![select_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/select_adapter.gif?raw=true)

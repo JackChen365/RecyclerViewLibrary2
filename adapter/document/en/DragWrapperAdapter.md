@@ -4,8 +4,8 @@
 
 #### Example classes:
 
-* [DragGridSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DragGridSampleActivity.kt)
-* [DragNewsSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DragNewsSampleActivity.kt)
+* [DragGridSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DragGridSampleActivity.kt)
+* [DragNewsSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/DragNewsSampleActivity.kt)
 
 #### Image
 ![drag_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/drag_adapter.gif?raw=true)

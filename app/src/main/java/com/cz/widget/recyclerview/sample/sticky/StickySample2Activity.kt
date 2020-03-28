@@ -8,10 +8,10 @@ import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.adapter.wrapper.sticky.StickyWrapperAdapter
 import com.cz.widget.recyclerview.sample.R
-import com.cz.widget.recyclerview.sample.sticky.adapter.StickySimple2Adapter
+import com.cz.widget.recyclerview.sample.sticky.adapter.StickySample2Adapter
 import kotlinx.android.synthetic.main.activity_sticky_sample2.*
 
-@SampleSourceCode
+@SampleSourceCode(".*StickySample2.*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/StickyAdapter.md")
 @RefRegister(title=R.string.sticky_sample2,desc = R.string.sticky_sample2_desc,category = R.string.sticky,priority = 1)
 class StickySample2Activity : SampleAppCompatActivity() {
@@ -27,7 +27,7 @@ class StickySample2Activity : SampleAppCompatActivity() {
         for(i in 0 until 100){
             list.add(ListData("Data:$i",i))
         }
-        val adapter = StickySimple2Adapter(this, list)
+        val adapter = StickySample2Adapter(this, list)
         adapter.setCondition { item, _ -> 5 < item.position&&item.position%5==0 }
 
         recyclerView.adapter= StickyWrapperAdapter(adapter)

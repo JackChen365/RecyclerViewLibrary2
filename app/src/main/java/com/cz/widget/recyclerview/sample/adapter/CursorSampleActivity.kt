@@ -44,7 +44,7 @@ import kotlinx.android.synthetic.main.activity_adapter_cursor_sample.*
  *   }
  * </pre>
  */
-@SampleSourceCode
+@SampleSourceCode(".*Cursor.*\\.(java|kt)")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/CursorAdapter.md")
 @RefRegister(title=R.string.cursor_adapter,desc = R.string.cursor_adapter_desc,category = R.string.adapter)
 class CursorSampleActivity : SampleAppCompatActivity(), LoaderManager.LoaderCallbacks<Cursor> {

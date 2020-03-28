@@ -10,8 +10,8 @@ The first time looks like this:[B,A,B] Then after you move to the next position.
 
 #### Example classes:
 
-* [GalleryImageAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/gallery/GalleryImageAdapter.kt)
-* [GallerySampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/GallerySampleActivity.kt)
+* [GalleryImageAdapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/gallery/GalleryImageAdapter.kt)
+* [GallerySampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/layoutmanager/wheel/GallerySampleActivity.kt)
 
 #### Image
 ![gallery](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/gallery.gif?raw=true)

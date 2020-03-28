@@ -1,5 +1,6 @@
 package com.cz.widget.recyclerview.sample.adapter
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
@@ -11,19 +12,19 @@ import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
+import com.cz.android.sample.library.data.DataManager
+import com.cz.android.sample.library.data.DataProvider
 import com.cz.widget.recyclerview.adapter.WrapperAdapter
 import com.cz.widget.recyclerview.adapter.support.expand.ExpandAdapter
 import com.cz.widget.recyclerview.adapter.wrapper.header.HeaderWrapperAdapter
 import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.adapter.impl.ExpandSampleAdapter
 import kotlinx.android.synthetic.main.activity_adapter_expand_sample.*
-import kotlin.random.Random
 
-@SampleSourceCode
+@SampleSourceCode(".*Expand.*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/ExpandAdapter.md")
 @RefRegister(title=R.string.expand_adapter,desc = R.string.expand_adapter_desc,category = R.string.adapter)
 class ExpandSampleActivity : SampleAppCompatActivity() {
-    private var colorList = mutableListOf(-0x1000000, -0xbbbbbc ,-0x777778, -0x333334, -0x1,-0x10000,-0xff0100,-0xffff01,-0x100,-0xff0001,-0xff01)
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -65,10 +66,13 @@ class ExpandSampleActivity : SampleAppCompatActivity() {
      * Return a header view
      */
     private fun getHeaderView(wrapperAdapter:HeaderWrapperAdapter): View {
-        val textColor = colorList[Random.nextInt(colorList.size)]
+        val dataProvider = DataManager.getDataProvider(this)
+        val colorArray = dataProvider.getColorArray(DataProvider.COLOR_PINK)
+        val color = colorArray[DataProvider.RANDOM.nextInt(colorArray.size)]
         val header = LayoutInflater.from(this).inflate(R.layout.adapter_header_layout, recyclerView, false)
         val headerView = header as TextView
-        headerView.setTextColor(textColor)
+        headerView.setBackgroundColor(color)
+        headerView.setTextColor(Color.WHITE)
         headerView.text = "HeaderView:" + wrapperAdapter.headerViewCount
         headerView.setOnClickListener { wrapperAdapter.addHeaderView(getHeaderView(wrapperAdapter)) }
         return headerView

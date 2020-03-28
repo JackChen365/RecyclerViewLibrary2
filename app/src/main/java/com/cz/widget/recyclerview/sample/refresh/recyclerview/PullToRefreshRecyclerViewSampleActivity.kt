@@ -12,6 +12,7 @@ import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
+import com.cz.android.sample.library.data.DataManager
 import com.cz.widget.pulltorefresh.RefreshMode
 import com.cz.widget.recyclerview.library.PullToRefreshRecyclerView
 import com.cz.widget.recyclerview.sample.R
@@ -36,8 +37,8 @@ class PullToRefreshRecyclerViewSampleActivity : SampleAppCompatActivity() {
         recyclerView.addHeaderView(getHeaderView())
 //        recyclerView.addFooterView(getFooterView())
 
-        val dataList = (0 until 4).map { "Data:$it" }.toList()
-        val adapter = SimpleAdapter(this, dataList)
+        val dataProvider = DataManager.getDataProvider(this)
+        val adapter = SimpleAdapter(this, dataProvider.getWordList(4))
         recyclerView.setAdapter(adapter)
 
         recyclerView.setOnPullToRefreshListener {

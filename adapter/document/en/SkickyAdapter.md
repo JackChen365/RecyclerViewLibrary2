@@ -4,14 +4,14 @@
 
 ### Example classes:
 
-* [StickySample1Activity](app/src/main/java/com/cz/widget/recyclerview/sample/sticky/StickySample1Activity.kt)
-* [StickySimple1Adapter](app/src/main/java/com/cz/widget/recyclerview/sample/sticky/adapter/StickySimple1Adapter.kt)
+* [StickySample1Activity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/sticky/StickySample1Activity.kt)
+* [StickySimple1Adapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/sticky/adapter/StickySimple1Adapter.kt)
 
-* [StickySample2Activity](app/src/main/java/com/cz/widget/recyclerview/sample/sticky/StickySample2Activity.kt)
-* [StickySimple2Adapter](app/src/main/java/com/cz/widget/recyclerview/sample/sticky/adapter/StickySimple2Adapter.kt)
+* [StickySample2Activity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/sticky/StickySample2Activity.kt)
+* [StickySimple2Adapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/sticky/adapter/StickySimple2Adapter.kt)
 
-* [StickySample3Activity](app/src/main/java/com/cz/widget/recyclerview/sample/sticky/StickySample3Activity.kt)
-* [StickySimple3Adapter](app/src/main/java/com/cz/widget/recyclerview/sample/sticky/adapter/StickySimple3Adapter.kt)
+* [StickySample3Activity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/sticky/StickySample3Activity.kt)
+* [StickySimple3Adapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/sticky/adapter/StickySimple3Adapter.kt)
 
 #### Image
 ![sticky_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/sticky_adapter.gif?raw=true)

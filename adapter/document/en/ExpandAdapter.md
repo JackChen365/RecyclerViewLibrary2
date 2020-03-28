@@ -4,8 +4,8 @@
 
 ### Example classes:
 
-* [ExpandSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/ExpandSampleActivity.kt)
-* [ExpandSampleAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/ExpandSampleAdapter.java)
+* [ExpandSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/ExpandSampleActivity.kt)
+* [ExpandSampleAdapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/ExpandSampleAdapter.java)
 
 #### Image
 ![expand_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/expand_adapter.gif?raw=true)

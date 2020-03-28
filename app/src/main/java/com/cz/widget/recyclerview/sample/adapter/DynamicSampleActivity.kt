@@ -12,17 +12,18 @@ import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
+import com.cz.android.sample.library.data.DataManager
+import com.cz.android.sample.library.data.DataProvider
 import com.cz.widget.recyclerview.adapter.wrapper.dynamic.DynamicWrapperAdapter
 import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.adapter.impl.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_adapter_dynamic_sample.*
 import java.util.*
 
-@SampleSourceCode
+@SampleSourceCode(".*Dynamic.*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DynamicAdapter.md")
 @RefRegister(title=R.string.dynamic_adapter,desc = R.string.dynamic_adapter_desc,category = R.string.adapter)
 class DynamicSampleActivity : SampleAppCompatActivity() {
-    private var colorList = mutableListOf(-0x1000000, -0xbbbbbc ,-0x777778, -0x333334, -0x1,-0x10000,-0xff0100,-0xffff01,-0x100,-0xff0001,-0xff01)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -66,20 +67,16 @@ class DynamicSampleActivity : SampleAppCompatActivity() {
         }
 
         //Add a bunch of layout.
-        for(i in listOf(1, 10, 11, 18, 19)){
-            val itemView = getFullItemView(dynamicAdapter)
-            dynamicAdapter.addAdapterView(itemView,i)
-        }
-//        AlertDialog.Builder(this).
-//            setTitle(R.string.add_dynamic_item).
-//            setNegativeButton(android.R.string.cancel) { dialog, _ -> dialog.dismiss() }.
-//            setPositiveButton(android.R.string.ok) { _, _ ->
-//                for(i in 0 until 10){
-//                    val itemView = getFullItemView(dynamicAdapter)
-//                    val index = random.nextInt(dynamicAdapter.itemCount)
-//                    dynamicAdapter.addAdapterView(itemView,index)
-//                }
-//            }.show()
+        AlertDialog.Builder(this).
+            setTitle(R.string.add_dynamic_item).
+            setNegativeButton(android.R.string.cancel) { dialog, _ -> dialog.dismiss() }.
+            setPositiveButton(android.R.string.ok) { _, _ ->
+                for(i in 0 until 10){
+                    val itemView = getFullItemView(dynamicAdapter)
+                    val index = random.nextInt(dynamicAdapter.itemCount)
+                    dynamicAdapter.addAdapterView(itemView,index)
+                }
+            }.show()
     }
 
 
@@ -96,21 +93,14 @@ class DynamicSampleActivity : SampleAppCompatActivity() {
      * Return a full column layout
      */
     private fun getFullItemView(wrapperAdapter: DynamicWrapperAdapter): View {
-        val color = colorList[kotlin.random.Random.nextInt(colorList.size)]
-        val darkColor = getDarkColor(color)
+        val dataProvider = DataManager.getDataProvider(this)
+        val colorArray = dataProvider.getColorArray(DataProvider.COLOR_PINK)
+        val color = colorArray[DataProvider.RANDOM.nextInt(colorArray.size)]
         val header = LayoutInflater.from(this).inflate(R.layout.adapter_header_layout,recyclerView, false)
         val headerView = header as TextView
         header.setBackgroundColor(color)
-        headerView.setTextColor(darkColor)
+        headerView.setTextColor(Color.RED)
         headerView.text = "DynamicView:" + wrapperAdapter.extraViewCount
         return headerView
-    }
-
-    private fun getDarkColor(color: Int): Int {
-        val max = 0xFF
-        val r = Color.red(color)
-        val g = Color.green(color)
-        val b = Color.blue(color)
-        return Color.rgb(if (r + 30 > max) r - 30 else r + 30, if (g + 30 > max) g - 30 else g + 30, if (b + 30 > max) b - 30 else b + 30)
     }
 }

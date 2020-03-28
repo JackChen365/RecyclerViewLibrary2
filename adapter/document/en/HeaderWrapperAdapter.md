@@ -4,7 +4,7 @@
 
 #### Example classes:
 
-* [HeaderSampleActivity](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/HeaderSampleActivity.kt)
+* [HeaderSampleActivity](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/HeaderSampleActivity.kt)
 
 #### Image
 ![header_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/header_adapter.gif?raw=true)

@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import com.cz.android.sample.api.RefRegister
 import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
+import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.adapter.wrapper.drag.DefaultDragCallback
 import com.cz.widget.recyclerview.adapter.wrapper.drag.DragWrapperAdapter
 import com.cz.widget.recyclerview.sample.R
@@ -22,7 +23,8 @@ import java.io.InputStreamReader
 import java.util.*
 import kotlin.concurrent.thread
 
-@SampleSourceCode
+@SampleSourceCode(".*((Channel)|(DragNewsSampleActivity)).*")
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DragAdapter.md")
 @RefRegister(title=R.string.drag_adapter1,desc = R.string.drag_adapter_desc1,category = R.string.adapter)
 class DragNewsSampleActivity : SampleAppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -14,7 +14,7 @@ import com.cz.widget.recyclerview.sample.R
 /**
  * Created by cz on 16/1/23.
  */
-class StickySimple2Adapter<E>(context: Context, @param:LayoutRes private val layout: Int, itemList: List<E>) : StickyAdapter<RecyclerView.ViewHolder, E>(itemList) {
+class StickySample2Adapter<E>(context: Context, @param:LayoutRes private val layout: Int, itemList: List<E>) : StickyAdapter<RecyclerView.ViewHolder, E>(itemList) {
     companion object{
         private const val STICKY_HEADER_ITEM1=0x00
         private const val STICKY_HEADER_ITEM2=0x01

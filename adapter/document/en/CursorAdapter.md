@@ -5,8 +5,8 @@
 
 #### Example classes:
 
-* [CursorSampleAdapter](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/CursorSampleAdapter.java)
-* [Sample](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/CursorSampleActivity.java)
+* [CursorSampleAdapter](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/impl/CursorSampleAdapter.java)
+* [Sample](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/CursorSampleActivity.java)
 
 #### Image
 ![cursor_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/cursor_adapter.gif?raw=true)
@@ -74,7 +74,7 @@ It may cause some problems.
 
 Here is an solution for LoaderManager without ContentProvider.
 
-We user this loader:[SimpleCursorLoader](app/src/main/java/com/cz/widget/recyclerview/sample/adapter/db/SimpleCursorLoader.java) instead of CursorLoader.
+We user this loader:[SimpleCursorLoader](https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/app/src/main/java/com/cz/widget/recyclerview/sample/adapter/db/SimpleCursorLoader.java) instead of CursorLoader.
 
 The function create loader it's more like:
 
