@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.cz.widget.recyclerview.library.PullToRefreshRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_grey_100"
+        app:pull_listDivider="@drawable/simple_list_divider"
+        app:pull_alwaysLoad="true"
+        app:pull_resistance="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            app:layout_adapterView="header"
+            android:text="@string/header_text"
+            android:textSize="24sp" />
+
+    </com.cz.widget.recyclerview.library.PullToRefreshRecyclerView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="12dp"
+        android:orientation="vertical">
+
+        <com.cz.android.sample.library.view.RadioLayout
+            android:id="@+id/refreshModeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            app:radio_items="@array/refreshMode"/>
+    </LinearLayout>
+
+</FrameLayout>

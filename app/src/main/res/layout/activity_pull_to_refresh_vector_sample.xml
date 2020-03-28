@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.cz.widget.recyclerview.library.PullToRefreshRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pull_resistance="2"
+        app:pull_refreshFreeze="true"
+        app:pull_minimumRefreshDuration="3000"
+        android:background="@color/md_grey_200"/>
+
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".refresh.sample.PullToRefreshDisplaySampleActivity">
+
+    <com.cz.widget.pulltorefresh.PullToRefreshLayout
+        android:id="@+id/pullToRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pull_headerStrategy="display"
+        android:background="@color/md_grey_200">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="200dp"
+                android:paddingBottom="200dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:background="@android:color/white"
+                android:text="@string/display_text"/>
+
+        </androidx.core.widget.NestedScrollView>
+    </com.cz.widget.pulltorefresh.PullToRefreshLayout>
+
+</FrameLayout>

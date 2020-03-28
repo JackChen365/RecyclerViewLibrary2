@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadioButtonLayout">
+        <attr name="radio_array" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="DebugItemDivider">
+        <attr name="debug_divider" format="reference"/>
+        <attr name="debug_dividerHeight" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckLayout">
+        <attr name="check_array" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cz.widget.pulltorefresh.widget.HeaderVectorView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/headerVectorView"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    app:pull_animator="@drawable/vector_pull_animator"
+    app:pull_loadAnimator="@drawable/vector_load_animator"
+    app:pull_completeAnimator="@drawable/vector_complete_animator"/>

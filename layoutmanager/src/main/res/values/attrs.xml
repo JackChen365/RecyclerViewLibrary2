@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cycleViewPager" format="reference"/>
+    <declare-styleable name="CycleViewPager">
+        <attr name="android:orientation"/>
+        <attr name="pager_autoScrollDuration" format="integer"/>
+        <attr name="pager_autoScrollInterval" format="integer"/>
+    </declare-styleable>
+
+    <attr name="gallery" format="reference"/>
+    <declare-styleable name="Gallery">
+        <attr name="android:orientation"/>
+    </declare-styleable>
+
+    <attr name="wheelLayout" format="reference"/>
+    <declare-styleable name="WheelLayout">
+        <attr name="android:orientation"/>
+        <attr name="wheel_itemCount" format="integer"/>
+    </declare-styleable>
+</resources>

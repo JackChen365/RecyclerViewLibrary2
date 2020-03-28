@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--The library root attribute.-->
+    <attr name="pullToRefresh" format="reference"/>
+
+    <attr name="pullToRefreshRecyclerView" format="reference"/>
+    <declare-styleable name="PullToRefreshRecyclerView">
+        <attr name="pull_listDivider" format="reference" />
+        <attr name="pull_alwaysLoad" format="boolean"/>
+        <attr name="layout_adapterView" format="enum">
+            <enum name="header" value="0x00"/>
+            <enum name="footer" value="0x01"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="refreshFooterFrameLayout" format="reference"/>
+    <declare-styleable name="RefreshFooterFrameLayout">
+        <attr name="footer_load_layout" format="reference"/>
+        <attr name="footer_complete_layout" format="reference"/>
+        <attr name="footer_error_layout" format="reference"/>
+        <attr name="layout_footerFrameType">
+            <enum name="load" value="1"/>
+            <enum name="complete" value="2"/>
+            <enum name="error" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <!--the attributes below was for the XML style.-->
+    <attr name="pullToRefreshFooter" format="reference"/>
+
+    <attr name="footerLoadLayout" format="reference"/>
+    <attr name="footerLoadProgress" format="reference"/>
+    <attr name="footerLoadText" format="reference"/>
+
+    <attr name="footerCompleteLayout" format="reference"/>
+    <attr name="footerCompleteText" format="reference"/>
+
+    <attr name="footerErrorLayout" format="reference"/>
+    <attr name="footerErrorText" format="reference"/>
+    <attr name="footerErrorButton" format="reference"/>
+
+</resources>

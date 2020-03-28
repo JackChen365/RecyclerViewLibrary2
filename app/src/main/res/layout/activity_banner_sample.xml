@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.cz.widget.recyclerview.layoutmanager.viewpager.CycleViewPager
+            android:id="@+id/cycleViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/md_grey_200">
+
+            <View
+                android:id="@+id/dragView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/fake_drag_hint"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <com.cz.widget.recyclerview.sample.view.RadioButtonLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="12dp"
+        app:radio_array="@array/scrollArray"/>
+
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="?pullToRefresh">
+
+    <ViewStub
+        android:id="@+id/footerLoadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="?footer_load_layout"
+        app:layout_footerFrameType="load"
+        android:inflatedId="@id/footerLoadLayout"/>
+
+    <ViewStub
+        android:id="@+id/footerCompleteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="?footer_complete_layout"
+        app:layout_footerFrameType="complete"
+        android:inflatedId="@id/footerCompleteLayout"/>
+
+    <ViewStub
+        android:id="@+id/footerErrorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="?footer_error_layout"
+        app:layout_footerFrameType="error"
+        android:inflatedId="@id/footerErrorLayout"/>
+
+</merge>

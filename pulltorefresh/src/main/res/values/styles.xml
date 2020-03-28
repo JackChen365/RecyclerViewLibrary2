@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PullToRefreshLayout">
+        <item name="pull_resistance">1</item>
+        <item name="pull_maximumScrollOffset">200dp</item>
+        <item name="pull_minimumRefreshDuration">0</item>
+        <item name="pull_headerStyle">material</item>
+    </style>
+
+    <style name="HeaderVectorView">
+    </style>
+
+    <style name="MaterialHeaderView">
+        <item name="materialPaddingTop">24dp</item>
+        <item name="materialPaddingBottom">24dp</item>
+    </style>
+    
+    <style name="PullToRefresh">
+        <item name="pullToRefreshLayout">@style/PullToRefreshLayout</item>
+        <item name="headerVectorView">@style/HeaderVectorView</item>
+        <item name="materialHeaderView">@style/MaterialHeaderView</item>
+    </style>
+</resources>

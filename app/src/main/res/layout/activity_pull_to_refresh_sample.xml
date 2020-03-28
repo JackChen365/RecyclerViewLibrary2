@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.cz.widget.recyclerview.library.PullToRefreshRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pull_maximumScrollOffset="100dp"
+        app:pull_minimumRefreshDuration="2000"
+        app:pull_resistance="2"/>
+
+    <Button
+        android:id="@+id/autoRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="right|bottom"
+        android:text="AutoRefresh"/>
+
+    <com.cz.android.sample.library.view.RadioLayout
+        android:id="@+id/strategyLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:orientation="horizontal"
+        app:radio_items="@array/strategy_items"/>
+
+</FrameLayout>

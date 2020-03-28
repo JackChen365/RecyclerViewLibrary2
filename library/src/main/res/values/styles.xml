@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PullToRefresh">
+        <item name="pullToRefreshRecyclerView">@style/PullToRefreshRecyclerView</item>
+        <item name="refreshFooterFrameLayout">@style/RefreshFooterFrameLayout</item>
+
+        <item name="footerLoadLayout">@style/FooterLoadLayout</item>
+        <item name="footerLoadProgress">@style/FooterLoadProgress</item>
+        <item name="footerLoadText">@style/FooterLoadText</item>
+
+        <item name="footerErrorLayout">@style/FooterErrorLayout</item>
+        <item name="footerErrorText">@style/FooterErrorText</item>
+        <item name="footerErrorButton">@style/FooterErrorButton</item>
+
+        <item name="footerCompleteLayout">@style/FooterCompleteLayout</item>
+        <item name="footerCompleteText">@style/FooterCompleteText</item>
+    </style>
+
+
+    <style name="PullToRefreshRecyclerView">
+        <item name="pull_alwaysLoad">false</item>
+    </style>
+
+    <style name="RefreshFooterFrameLayout">
+        <item name="footer_load_layout">@layout/footer_load_layout</item>
+        <item name="footer_error_layout">@layout/footer_error_layout</item>
+        <item name="footer_complete_layout">@layout/footer_complete_layout</item>
+    </style>
+
+
+    <!--All the load layout style-->
+    <style name="FooterLoadLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="FooterLoadProgress">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <style name="FooterLoadText">
+        <item name="android:layout_marginLeft">12dip</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:text">@string/refresh_loading</item>
+    </style>
+
+
+    <!--All the error layout style-->
+    <style name="FooterErrorLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="FooterErrorText">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:text">@string/refresh_error_hint</item>
+    </style>
+
+    <style name="FooterErrorButton">
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:background">@drawable/footer_retry_button_selector</item>
+        <item name="android:text">@string/refresh_click_retry</item>
+    </style>
+
+    <!--All the complete layout style-->
+    <style name="FooterCompleteLayout">
+    </style>
+
+    <style name="FooterCompleteText">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:text">@string/refresh_complete</item>
+    </style>
+</resources>

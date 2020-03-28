@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--This is the root style.-->
+    <attr name="pullToRefresh" format="reference"/>
+
+    <attr name="pullToRefreshLayout" format="reference"/>
+    <declare-styleable name="PullToRefreshLayout">
+        <!--The resistance of the pull distance. default resistance was 1f-->
+        <attr name="pull_resistance" format="float"/>
+        <!--How far the finger would move-->
+        <attr name="pull_maximumScrollOffset" format="dimension"/>
+        <!--Sometime we don't want the refresh process to quickly-->
+        <attr name="pull_minimumRefreshDuration" format="integer"/>
+        <!--when we start to refresh, if you want to freeze the view-->
+        <attr name="pull_refreshFreeze" format="boolean"/>
+        <attr name="pull_headerStrategy">
+            <enum name="front" value="0x02"/>
+            <enum name="follow" value="0x00"/>
+            <enum name="overlap" value="0x01"/>
+            <enum name="display" value="0x03"/>
+        </attr>
+        <!--if you want to have your own header. use vector-->
+        <attr name="pull_headerStyle">
+            <enum name="material" value="0x00"/>
+            <enum name="vector" value="0x01"/>
+        </attr>
+        <attr name="pull_refreshMode">
+            <enum name="both" value="0x00"/>
+            <enum name="start" value="0x01"/>
+            <enum name="end" value="0x02"/>
+            <enum name="none" value="0x03"/>
+        </attr>
+    </declare-styleable>
+
+    <!--The default vector header layout resources-->
+    <attr name="headerVectorLayout" format="reference"/>
+
+    <attr name="headerVectorView" format="reference"/>
+    <declare-styleable name="HeaderVectorView">
+        <attr name="pull_animator" format="reference"/>
+        <attr name="pull_loadAnimator" format="reference"/>
+        <attr name="pull_completeAnimator" format="reference"/>
+    </declare-styleable>
+
+    <attr name="materialHeaderView" format="reference"/>
+    <declare-styleable name="MaterialHeaderView">
+        <attr name="materialStyle" >
+            <enum name="normal" value="0x00"/>
+            <enum name="large" value="0x01"/>
+        </attr>
+        <attr name="materialPaddingTop" format="dimension"/>
+        <attr name="materialPaddingBottom" format="dimension"/>
+    </declare-styleable>
+</resources>

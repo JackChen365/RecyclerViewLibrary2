@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="refresh_click_retry">重试</string>
+    <string name="refresh_error_hint">数据加载异常</string>
+    <string name="refresh_loading">加载中...</string>
+    <string name="refresh_complete">加载完毕</string>
+</resources>

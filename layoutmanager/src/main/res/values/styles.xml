@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CycleViewPager">
+        <item name="android:orientation">horizontal</item>
+        <item name="pager_autoScrollDuration">1000</item>
+        <item name="pager_autoScrollInterval">3000</item>
+    </style>
+    <style name="Gallery">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="WheelLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="wheel_itemCount">5</item>
+    </style>
+</resources>

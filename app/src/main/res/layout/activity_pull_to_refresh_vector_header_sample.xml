@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/sample_activity_horizontal_margin"
+    android:paddingTop="@dimen/sample_activity_vertical_margin"
+    android:paddingRight="@dimen/sample_activity_horizontal_margin"
+    android:paddingBottom="@dimen/sample_activity_vertical_margin">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+    <com.cz.widget.pulltorefresh.widget.HeaderVectorView
+        android:id="@+id/headerVectorView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@color/md_grey_200"
+        app:pull_animator="@drawable/vector_pull_animator"
+        app:pull_loadAnimator="@drawable/vector_load_animator"
+        app:pull_completeAnimator="@drawable/vector_complete_animator"/>
+
+    </FrameLayout>
+
+    <com.cz.android.sample.library.view.SeekLayout
+        android:id="@+id/seekLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:seek_title="@string/process"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="12dp"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="start"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

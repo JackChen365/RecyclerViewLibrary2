@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cz.widget.recyclerview.sample">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".sticky.StickySample3Activity" />
+        <activity android:name=".sticky.StickySample2Activity" />
+        <activity android:name=".sticky.StickySample1Activity" />
+
+        <activity android:name=".layoutmanager.viewpager.BannerSampleActivity" />
+        <activity android:name=".layoutmanager.wheel.WheelSampleActivity" />
+        <activity android:name=".layoutmanager.gallery.GallerySampleActivity" />
+        <activity android:name=".layoutmanager.viewpager.CycleViewPagerSampleActivity" />
+        <activity android:name=".layoutmanager.CenterLayoutManagerSampleActivity" />
+
+        <activity android:name=".adapter.SelectSampleActivity" />
+        <activity android:name=".adapter.DynamicSampleActivity" />
+        <activity android:name=".adapter.CursorSampleActivity" />
+        <activity android:name=".adapter.DragGridSampleActivity" />
+        <activity android:name=".adapter.DragNewsSampleActivity" />
+        <activity android:name=".adapter.FilterSampleActivity" />
+        <activity android:name=".adapter.HeaderSampleActivity" />
+        <activity android:name=".adapter.ExpandSampleActivity" />
+        <activity android:name=".adapter.TreeSampleActivity" />
+        <activity android:name=".adapter.swipe.SwipeSampleActivity" />
+
+        <activity android:name=".refresh.sample.PullToRefreshStoreySampleActivity" />
+        <activity android:name=".refresh.sample.PullToRefreshVectorSampleActivity" />
+        <activity android:name=".refresh.sample.PullToRefreshVectorHeaderSampleActivity" />
+        <activity android:name=".refresh.sample.PullToRefreshSampleActivity" />
+        <activity android:name=".refresh.sample.PullToRefreshDisplaySampleActivity" />
+        <activity android:name=".refresh.recyclerview.PullToRefreshRecyclerViewSampleActivity"></activity>
+
+    </application>
+
+</manifest>
