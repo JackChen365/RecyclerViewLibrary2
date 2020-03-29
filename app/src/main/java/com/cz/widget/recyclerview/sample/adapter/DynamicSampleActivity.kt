@@ -99,7 +99,7 @@ class DynamicSampleActivity : SampleAppCompatActivity() {
         val header = LayoutInflater.from(this).inflate(R.layout.adapter_header_layout,recyclerView, false)
         val headerView = header as TextView
         header.setBackgroundColor(color)
-        headerView.setTextColor(Color.RED)
+        headerView.setTextColor(Color.WHITE)
         headerView.text = "DynamicView:" + wrapperAdapter.extraViewCount
         return headerView
     }

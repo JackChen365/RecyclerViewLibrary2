@@ -13,19 +13,17 @@ import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.android.sample.library.data.DataManager
+import com.cz.android.sample.library.data.DataProvider
 import com.cz.widget.pulltorefresh.RefreshMode
 import com.cz.widget.recyclerview.library.PullToRefreshRecyclerView
 import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.adapter.impl.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_pull_to_refresh_recycler_view_sample.*
-import kotlin.random.Random
 
 @SampleSourceCode
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/library/README.MD")
 @RefRegister(title=R.string.pull_to_refresh_recycler_view_title1,desc = R.string.pull_to_refresh_recycler_view_desc,category = R.string.pull_to_refresh)
 class PullToRefreshRecyclerViewSampleActivity : SampleAppCompatActivity() {
-
-    private var colorList = mutableListOf(-0x1000000, -0xbbbbbc ,-0x777778, -0x333334, -0x1,-0x10000,-0xff0100,-0xffff01,-0x100,-0xff0001,-0xff01)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pull_to_refresh_recycler_view_sample)
@@ -81,37 +79,17 @@ class PullToRefreshRecyclerViewSampleActivity : SampleAppCompatActivity() {
      * Return a header view
      */
     private fun getHeaderView(): View {
-        val textColor = colorList[Random.nextInt(colorList.size)]
+        val dataProvider = DataManager.getDataProvider(this)
+        val colorArray = dataProvider.getColorArray(DataProvider.COLOR_RED)
+        val color = colorArray[DataProvider.RANDOM.nextInt(colorArray.size)]
         val header = LayoutInflater.from(this).inflate(R.layout.adapter_header_layout, recyclerView, false)
         val headerView = header as TextView
-        headerView.setTextColor(textColor)
+        headerView.setBackgroundColor(color)
+        headerView.setTextColor(Color.WHITE)
         headerView.text = "HeaderView:" + recyclerView.headerViewCount
         headerView.setOnClickListener { recyclerView.addHeaderView(getHeaderView()) }
         return headerView
     }
-
-
-    /**
-     * Return a footer view.
-     */
-    private fun getFooterView(): View {
-        val color = colorList[Random.nextInt(colorList.size)]
-        val textColor = getDarkColor(color)
-        val footer = LayoutInflater.from(this).inflate(R.layout.adapter_footer_layout, recyclerView, false)
-        val footerView = footer as TextView
-        footerView.text = "FooterView:" + recyclerView.footerViewCount
-        footerView.setTextColor(textColor)
-        return footerView
-    }
-
-    private fun getDarkColor(color: Int): Int {
-        val max = 0xFF
-        val r = Color.red(color)
-        val g = Color.green(color)
-        val b = Color.blue(color)
-        return Color.rgb(if (r + 30 > max) r - 30 else r + 30, if (g + 30 > max) g - 30 else g + 30, if (b + 30 > max) b - 30 else b + 30)
-    }
-
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_refresh, menu)
         return true

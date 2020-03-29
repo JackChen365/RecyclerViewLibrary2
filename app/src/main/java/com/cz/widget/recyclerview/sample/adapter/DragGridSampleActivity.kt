@@ -19,7 +19,7 @@ import com.cz.widget.recyclerview.sample.adapter.impl.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_adapter_drag_sample.*
 
 @SampleSourceCode(".*DragGridSampleActivity.*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DragAdapter.md")
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DragWrapperAdapter.md")
 @RefRegister(title=R.string.drag_adapter,desc = R.string.drag_adapter_desc,category = R.string.adapter)
 class DragGridSampleActivity : SampleAppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

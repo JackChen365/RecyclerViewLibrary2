@@ -275,6 +275,10 @@ public abstract class AbsCycleLayout extends ViewGroup {
         return new RecyclerViewImpl(context);
     }
 
+    protected RecyclerView getRecyclerView(){
+        return recyclerView;
+    }
+
     /**
      * Slightly modified RecyclerView to get ViewPager behavior in accessibility and to
      * enable/disable user scrolling.

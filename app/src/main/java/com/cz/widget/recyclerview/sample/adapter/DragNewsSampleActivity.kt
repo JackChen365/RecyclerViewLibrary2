@@ -24,7 +24,7 @@ import java.util.*
 import kotlin.concurrent.thread
 
 @SampleSourceCode(".*((Channel)|(DragNewsSampleActivity)).*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DragAdapter.md")
+@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DragWrapperAdapter.md")
 @RefRegister(title=R.string.drag_adapter1,desc = R.string.drag_adapter_desc1,category = R.string.adapter)
 class DragNewsSampleActivity : SampleAppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

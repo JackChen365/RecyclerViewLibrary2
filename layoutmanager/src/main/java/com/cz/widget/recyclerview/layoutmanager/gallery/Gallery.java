@@ -2,7 +2,10 @@ package com.cz.widget.recyclerview.layoutmanager.gallery;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.cz.widget.recyclerview.layoutmanager.R;
 import com.cz.widget.recyclerview.layoutmanager.base.CenterLayoutManager;
@@ -25,6 +28,24 @@ public class Gallery extends AbsCycleLayout {
 
     public Gallery(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs,defStyleAttr);
+    }
+
+    @Override
+    public boolean canScrollHorizontally(int direction) {
+        RecyclerView recyclerView = getRecyclerView();
+        boolean b = recyclerView.canScrollHorizontally(direction);
+        Log.i("canScrollHorizontally","canScrollHorizontally:"+direction);
+        return b;
+    }
+
+    @Override
+    public boolean canScrollVertically(int direction) {
+        RecyclerView recyclerView = getRecyclerView();
+        int i = recyclerView.computeVerticalScrollExtent();
+        int i1 = recyclerView.computeVerticalScrollRange();
+        int i2 = recyclerView.computeVerticalScrollOffset();
+        Log.i("canScrollVertically","canScrollVertically:"+direction+" i:"+i+" i1:"+i1+" i2:"+i2);
+        return recyclerView.canScrollVertically(direction);
     }
 
     @Override

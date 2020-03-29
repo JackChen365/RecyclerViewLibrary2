@@ -683,6 +683,74 @@ public class CenterLayoutManager extends RecyclerView.LayoutManager {
         extraLayoutSpace[1] = extraLayoutSpaceEnd;
     }
 
+    @Override
+    public int computeHorizontalScrollRange(@NonNull RecyclerView.State state) {
+        return computeScrollRange(state);
+    }
+
+    @Override
+    public int computeHorizontalScrollOffset(@NonNull RecyclerView.State state) {
+        return computeScrollOffset(state);
+    }
+
+    @Override
+    public int computeHorizontalScrollExtent(@NonNull RecyclerView.State state) {
+        return computeScrollExtent(state);
+    }
+
+    @Override
+    public int computeVerticalScrollRange(@NonNull RecyclerView.State state) {
+        return computeScrollRange(state);
+    }
+
+    @Override
+    public int computeVerticalScrollOffset(@NonNull RecyclerView.State state) {
+        return computeScrollOffset(state);
+    }
+
+    @Override
+    public int computeVerticalScrollExtent(@NonNull RecyclerView.State state) {
+        return computeScrollExtent(state);
+    }
+
+    private int computeScrollOffset(RecyclerView.State state) {
+        if (getChildCount() == 0) {
+            return 0;
+        }
+        int firstVisibleItemPosition = findFirstVisibleItemPosition();
+        int lastVisibleItemPosition = findLastVisibleItemPosition();
+        View firstVisibleView = findViewByPosition(firstVisibleItemPosition);
+        View lastVisibleView = findViewByPosition(lastVisibleItemPosition);
+        return ScrollbarHelper.computeScrollOffset(state, orientationHelper,
+                firstVisibleView, lastVisibleView, this, true, false);
+    }
+
+    private int computeScrollExtent(RecyclerView.State state) {
+        if (getChildCount() == 0) {
+            return 0;
+        }
+        int firstVisibleItemPosition = findFirstVisibleItemPosition();
+        int lastVisibleItemPosition = findLastVisibleItemPosition();
+        View firstVisibleView = findViewByPosition(firstVisibleItemPosition);
+        View lastVisibleView = findViewByPosition(lastVisibleItemPosition);
+        return ScrollbarHelper.computeScrollExtent(state, orientationHelper,
+                firstVisibleView, lastVisibleView, this,  true);
+    }
+
+    private int computeScrollRange(RecyclerView.State state) {
+        if (getChildCount() == 0) {
+            return 0;
+        }
+        int firstVisibleItemPosition = findFirstVisibleItemPosition();
+        int lastVisibleItemPosition = findLastVisibleItemPosition();
+        View firstVisibleView = findViewByPosition(firstVisibleItemPosition);
+        View lastVisibleView = findViewByPosition(lastVisibleItemPosition);
+        return ScrollbarHelper.computeScrollRange(state, orientationHelper,
+                firstVisibleView,lastVisibleView,
+                this, true);
+    }
+
+
     protected int getExtraLayoutSpace(RecyclerView.State state) {
         if (state.hasTargetScrollPosition()) {
             return orientationHelper.getTotalSpace();

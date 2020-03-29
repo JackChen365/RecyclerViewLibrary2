@@ -2,6 +2,7 @@ package com.cz.widget.recyclerview.layoutmanager.wheel;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -49,6 +50,26 @@ public class WheelLayout extends AbsCycleLayout {
             WheelItemDecoration itemDecoration = (WheelItemDecoration) decor;
             itemDecoration.setWheelLayout(this);
         }
+    }
+
+    @Override
+    public boolean canScrollHorizontally(int direction) {
+        RecyclerView recyclerView = getRecyclerView();
+        int i = recyclerView.computeHorizontalScrollExtent();
+        int i1 = recyclerView.computeHorizontalScrollOffset();
+        int i2 = recyclerView.computeHorizontalScrollRange();
+        Log.i("canScrollHorizontally","canScrollHorizontally:"+direction+" i:"+i+" i1:"+i1+" i2:"+i2);
+        return recyclerView.canScrollHorizontally(direction);
+    }
+
+    @Override
+    public boolean canScrollVertically(int direction) {
+        RecyclerView recyclerView = getRecyclerView();
+        int i = recyclerView.computeVerticalScrollExtent();
+        int i1 = recyclerView.computeVerticalScrollRange();
+        int i2 = recyclerView.computeVerticalScrollOffset();
+        Log.i("canScrollVertically","canScrollVertically:"+direction+" i:"+i+" i1:"+i1+" i2:"+i2);
+        return recyclerView.canScrollVertically(direction);
     }
 
     @Override

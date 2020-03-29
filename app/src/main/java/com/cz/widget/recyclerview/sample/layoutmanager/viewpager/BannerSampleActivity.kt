@@ -3,6 +3,7 @@ package com.cz.widget.recyclerview.sample.layoutmanager.viewpager
 import android.content.res.Configuration
 import android.os.Bundle
 import android.view.MotionEvent
+import android.view.View
 import androidx.core.text.TextUtilsCompat
 import androidx.core.view.ViewCompat
 import com.cz.android.sample.api.RefRegister
@@ -42,8 +43,8 @@ class BannerSampleActivity : SampleAppCompatActivity() {
         cycleViewPager.isUserInputEnabled=false
         cycleViewPager.adapter = imageAdapter
 
-        dragView.setOnTouchListener { _, event ->
-            handleOnTouchEvent(event)
+        dragView.setOnTouchListener { v, event ->
+            handleOnTouchEvent(v,event)
         }
 
         buttonLayout.setOnCheckedChangeListener { _, checkedId ->
@@ -66,13 +67,13 @@ class BannerSampleActivity : SampleAppCompatActivity() {
         return if (landscape) event.y else mirrorInRtl(event.x)
     }
 
-    private fun handleOnTouchEvent(event: MotionEvent): Boolean {
+    private fun handleOnTouchEvent(view: View, event: MotionEvent): Boolean {
         when (event.action) {
             MotionEvent.ACTION_DOWN -> {
                 lastValue = getValue(event)
                 cycleViewPager.beginFakeDrag()
+                view.parent.requestDisallowInterceptTouchEvent(true)
             }
-
             MotionEvent.ACTION_MOVE -> {
                 val value = getValue(event)
                 val delta = value - lastValue

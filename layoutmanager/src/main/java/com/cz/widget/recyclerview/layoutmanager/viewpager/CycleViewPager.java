@@ -85,6 +85,18 @@ public class CycleViewPager extends AbsCycleLayout {
         super.onDetachedFromWindow();
     }
 
+    @Override
+    public boolean canScrollHorizontally(int direction) {
+        RecyclerView recyclerView = getRecyclerView();
+        return recyclerView.canScrollHorizontally(direction);
+    }
+
+    @Override
+    public boolean canScrollVertically(int direction) {
+        RecyclerView recyclerView = getRecyclerView();
+        return recyclerView.canScrollVertically(direction);
+    }
+
     /**
      * Change the recycler view auto scroll duration.
      */
