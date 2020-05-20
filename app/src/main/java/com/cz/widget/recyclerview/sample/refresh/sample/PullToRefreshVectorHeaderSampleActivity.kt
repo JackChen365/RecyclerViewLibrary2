@@ -6,8 +6,8 @@ import android.animation.AnimatorSet
 import android.animation.ValueAnimator
 import android.os.Bundle
 import android.view.animation.LinearInterpolator
+import androidx.appcompat.app.AppCompatActivity
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.widget.pulltorefresh.PullToRefreshState
 import com.cz.widget.recyclerview.sample.R
@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.activity_pull_to_refresh_vector_header_sam
 
 @SampleSourceCode(".*PullToRefreshVectorHeaderSampleActivity.*")
 @RefRegister(title=R.string.pull_to_refresh_header_vector,desc = R.string.pull_to_refresh_vector_header_desc,category = R.string.pull_to_refresh,priority = 1)
-class PullToRefreshVectorHeaderSampleActivity : SampleAppCompatActivity() {
+class PullToRefreshVectorHeaderSampleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

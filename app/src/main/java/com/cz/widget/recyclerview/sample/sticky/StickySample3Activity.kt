@@ -1,9 +1,9 @@
 package com.cz.widget.recyclerview.sample.sticky
 
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.adapter.wrapper.sticky.StickyWrapperAdapter
@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.activity_sticky_sample3.*
 @SampleSourceCode(".*StickySample3.*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/StickyAdapter.md")
 @RefRegister(title=R.string.sticky_sample3,desc = R.string.sticky_sample3_desc,category = R.string.sticky,priority = 1)
-class StickySample3Activity : SampleAppCompatActivity() {
+class StickySample3Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

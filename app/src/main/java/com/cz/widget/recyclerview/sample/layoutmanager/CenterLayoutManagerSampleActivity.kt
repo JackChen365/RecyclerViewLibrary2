@@ -1,8 +1,8 @@
 package com.cz.widget.recyclerview.sample.layoutmanager
 
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.widget.recyclerview.layoutmanager.base.CenterLayoutManager
 import com.cz.widget.recyclerview.sample.R
@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_center_layout_manager_sample.*
 
 @SampleSourceCode(".*(CenterLayoutManager|Debug).*")
 @RefRegister(title=R.string.center_layout_manager,desc = R.string.center_layout_manager_desc,category = R.string.layout_manager)
-class CenterLayoutManagerSampleActivity : SampleAppCompatActivity() {
+class CenterLayoutManagerSampleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

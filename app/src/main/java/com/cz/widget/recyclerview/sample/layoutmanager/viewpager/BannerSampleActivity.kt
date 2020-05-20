@@ -4,10 +4,10 @@ import android.content.res.Configuration
 import android.os.Bundle
 import android.view.MotionEvent
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.TextUtilsCompat
 import androidx.core.view.ViewCompat
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.layoutmanager.viewpager.CycleViewPager
@@ -19,7 +19,7 @@ import java.util.*
 @SampleSourceCode(".*(Banner|Adapter).*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/layoutmanager/document/en/CycleViewPager.md")
 @RefRegister(title = R.string.view_pager_banner,desc = R.string.view_pager_banner_desc,category = R.string.view_pager)
-class BannerSampleActivity : SampleAppCompatActivity() {
+class BannerSampleActivity : AppCompatActivity() {
 
     private var landscape = false
     private var lastValue: Float = 0f

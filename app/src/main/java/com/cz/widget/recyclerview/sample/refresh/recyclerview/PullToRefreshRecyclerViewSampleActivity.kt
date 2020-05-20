@@ -7,9 +7,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.android.sample.library.data.DataManager
@@ -23,7 +23,7 @@ import kotlinx.android.synthetic.main.activity_pull_to_refresh_recycler_view_sam
 @SampleSourceCode
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/library/README.MD")
 @RefRegister(title=R.string.pull_to_refresh_recycler_view_title1,desc = R.string.pull_to_refresh_recycler_view_desc,category = R.string.pull_to_refresh)
-class PullToRefreshRecyclerViewSampleActivity : SampleAppCompatActivity() {
+class PullToRefreshRecyclerViewSampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pull_to_refresh_recycler_view_sample)

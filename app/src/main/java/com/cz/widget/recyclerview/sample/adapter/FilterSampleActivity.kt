@@ -3,9 +3,9 @@ package com.cz.widget.recyclerview.sample.adapter
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.android.sample.library.data.DataManager
@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.activity_adapter_filter_sample.*
 @SampleSourceCode(".*Filter.*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/FilterAdapter.md")
 @RefRegister(title=R.string.filter,desc = R.string.filter_desc,category = R.string.adapter)
-class FilterSampleActivity : SampleAppCompatActivity() {
+class FilterSampleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

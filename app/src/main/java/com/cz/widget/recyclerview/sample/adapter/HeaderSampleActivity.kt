@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.android.sample.library.data.DataManager
@@ -21,7 +21,7 @@ import kotlinx.android.synthetic.main.activity_adapter_header_sample.*
 @SampleSourceCode(".*Header.*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/HeaderWrapperAdapter.md")
 @RefRegister(title=R.string.header_adapter,desc = R.string.header_adapter_desc,category = R.string.adapter)
-class HeaderSampleActivity : SampleAppCompatActivity() {
+class HeaderSampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_adapter_header_sample)

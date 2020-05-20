@@ -1,8 +1,8 @@
 package com.cz.widget.recyclerview.sample.layoutmanager.gallery
 
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.layoutmanager.widget.AbsCycleLayout
@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_gallery_sample.*
 @SampleSourceCode
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/layoutmanager/document/en/Gallery.md")
 @RefRegister(title = R.string.gallery,desc = R.string.gallery_desc,category = R.string.layout_manager)
-class GallerySampleActivity : SampleAppCompatActivity() {
+class GallerySampleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

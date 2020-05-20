@@ -7,9 +7,9 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.android.sample.library.data.DataManager
@@ -23,7 +23,7 @@ import java.util.*
 @SampleSourceCode(".*Dynamic.*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DynamicAdapter.md")
 @RefRegister(title=R.string.dynamic_adapter,desc = R.string.dynamic_adapter_desc,category = R.string.adapter)
-class DynamicSampleActivity : SampleAppCompatActivity() {
+class DynamicSampleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

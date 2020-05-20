@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.android.sample.library.data.DataManager
@@ -21,7 +21,7 @@ import kotlinx.android.synthetic.main.activity_select_sample.*
 @SampleSourceCode(".*Select.*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/SelectWrapperAdapter.md")
 @RefRegister(title=R.string.select_adapter,desc = R.string.select_adapter_desc,category = R.string.adapter)
-class SelectSampleActivity : SampleAppCompatActivity() {
+class SelectSampleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

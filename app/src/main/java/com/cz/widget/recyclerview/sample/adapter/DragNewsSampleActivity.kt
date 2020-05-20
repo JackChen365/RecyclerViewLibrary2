@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.adapter.wrapper.drag.DefaultDragCallback
@@ -26,7 +26,7 @@ import kotlin.concurrent.thread
 @SampleSourceCode(".*((Channel)|(DragNewsSampleActivity)).*")
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DragWrapperAdapter.md")
 @RefRegister(title=R.string.drag_adapter1,desc = R.string.drag_adapter_desc1,category = R.string.adapter)
-class DragNewsSampleActivity : SampleAppCompatActivity() {
+class DragNewsSampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_adapter_drag_sample)

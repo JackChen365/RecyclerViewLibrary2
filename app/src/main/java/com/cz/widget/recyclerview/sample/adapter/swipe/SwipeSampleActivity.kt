@@ -1,13 +1,13 @@
 package com.cz.widget.recyclerview.sample.adapter.swipe
 
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.widget.recyclerview.sample.R
 import kotlinx.android.synthetic.main.activity_swipe_sample.*
 
 //@RefRegister(title= R.string.swipe_adapter1,desc = R.string.swipe_adapter_desc1,category = R.string.adapter)
-class SwipeSampleActivity : SampleAppCompatActivity() {
+class SwipeSampleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

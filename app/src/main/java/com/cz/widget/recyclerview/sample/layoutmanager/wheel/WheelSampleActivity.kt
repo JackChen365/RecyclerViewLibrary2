@@ -5,8 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.SeekBar
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.cz.android.sample.api.RefRegister
-import com.cz.android.sample.library.appcompat.SampleAppCompatActivity
 import com.cz.android.sample.library.component.code.SampleSourceCode
 import com.cz.android.sample.library.component.document.SampleDocument
 import com.cz.widget.recyclerview.layoutmanager.widget.AbsCycleLayout
@@ -19,7 +19,7 @@ import java.util.*
 @SampleSourceCode
 @SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/layoutmanager/document/en/Wheel.md")
 @RefRegister(title = R.string.wheel,desc = R.string.wheel_desc,category = R.string.layout_manager)
-class WheelSampleActivity : SampleAppCompatActivity() {
+class WheelSampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wheel_sample)
