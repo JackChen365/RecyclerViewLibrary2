@@ -4,13 +4,26 @@
 
 [APK file](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/file/app-debug_1.0.0.apk?raw=true)
 
+### Compile
+
+```
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+implementation 'com.github.momodae.RecyclerViewLibrary2:layoutmanager:1.0.0'
+implementation 'com.github.momodae.RecyclerViewLibrary2:pulltorefresh:1.0.0'
+implementation 'com.github.momodae.RecyclerViewLibrary2:adapter:1.0.0'
+implementation 'com.github.momodae.RecyclerViewLibrary2:library:1.0.1'
+```
+
 ### Tools version
 
 Most important: all the libraries were use the AndroidX, not the appcompat.
 
 ```
-
-
 //The build.gradle
 compileSdkVersion 29
 buildToolsVersion "29.0.2"
@@ -27,6 +40,7 @@ implementation 'androidx.recyclerview:recyclerview:1.1.0'
 For module:library
 Because of the nested scroll didn't support API-19 so we upgrade this module to API-21
 ```
+
 
 Tips:
 * All the libraries use java purely.
