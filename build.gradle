@@ -5,11 +5,13 @@ buildscript {
     repositories {
         google()
         jcenter()
-
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.github.dcendents:android-maven-gradle-plugin:2.1"
+        classpath 'com.github.momodae.UploadPlugin:jitpack:1.0.1'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -17,13 +19,34 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url 'https://jitpack.io' }
         maven { url "http://www.momoda.pro:8081/repository/maven/" }
         google()
         jcenter()
-
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+
+apply plugin: 'jitpack.upload'
+jitpack{
+    module{
+        name "adapter"
+        group "com.cz.widget.recycler.adapter"
+    }
+    module{
+        name "layoutmanager"
+        group "com.cz.widget.recycler.layoutmanager"
+    }
+    module{
+        name "library"
+        group "com.cz.widget.recyclerview.library"
+    }
+    module{
+        name "pulltorefresh"
+        group "com.cz.widget.pulltorefresh"
+    }
 }
