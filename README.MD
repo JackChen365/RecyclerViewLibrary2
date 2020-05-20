@@ -31,7 +31,7 @@ Because of the nested scroll didn't support API-19 so we upgrade this module to 
 Tips:
 * All the libraries use java purely.
 * Only the sample module use kotlin.
-* The demonstrate module base on this library:[AndroidSampleLibrary](). Just check all the activities. Do not try to find a initialize application or something like that.
+* The demonstrate module base on this library:[AndroidSampleLibrary](https://github.com/momodae/AndroidSampleLibrary). Just check all the activities. Do not try to find a initialize application or something like that.
 
 
 ### About PullToRefreshRecyclerView
