@@ -13,9 +13,9 @@ allprojects {
     }
 }
 
-implementation 'com.github.momodae.RecyclerViewLibrary2:layoutmanager:1.0.0'
-implementation 'com.github.momodae.RecyclerViewLibrary2:pulltorefresh:1.0.0'
-implementation 'com.github.momodae.RecyclerViewLibrary2:adapter:1.0.0'
+implementation 'com.github.momodae.RecyclerViewLibrary2:layoutmanager:1.0.1'
+implementation 'com.github.momodae.RecyclerViewLibrary2:pulltorefresh:1.0.1'
+implementation 'com.github.momodae.RecyclerViewLibrary2:adapter:1.0.1'
 implementation 'com.github.momodae.RecyclerViewLibrary2:library:1.0.1'
 ```
 
