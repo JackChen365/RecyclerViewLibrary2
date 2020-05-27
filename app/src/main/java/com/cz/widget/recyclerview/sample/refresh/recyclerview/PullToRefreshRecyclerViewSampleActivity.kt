@@ -21,7 +21,7 @@ import com.cz.widget.recyclerview.sample.adapter.impl.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_pull_to_refresh_recycler_view_sample.*
 
 @SampleSourceCode
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/library/README.MD")
+@SampleDocument("library/readme.md")
 @RefRegister(title=R.string.pull_to_refresh_recycler_view_title1,desc = R.string.pull_to_refresh_recycler_view_desc,category = R.string.pull_to_refresh)
 class PullToRefreshRecyclerViewSampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -17,7 +17,7 @@ import java.text.DecimalFormat
 import java.util.*
 
 @SampleSourceCode
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/layoutmanager/document/en/Wheel.md")
+@SampleDocument("Wheel.md")
 @RefRegister(title = R.string.wheel,desc = R.string.wheel_desc,category = R.string.layout_manager)
 class WheelSampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

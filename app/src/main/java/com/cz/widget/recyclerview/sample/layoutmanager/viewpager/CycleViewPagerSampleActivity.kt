@@ -17,8 +17,8 @@ import com.cz.widget.recyclerview.sample.layoutmanager.viewpager.adapter.ViewPag
 import com.cz.widget.recyclerview.sample.view.CheckLayout
 import kotlinx.android.synthetic.main.activity_cycle_view_pager_sample.*
 
-@SampleSourceCode(".*ViewPager.*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/layoutmanager/document/en/CycleViewPager.md")
+@SampleSourceCode
+@SampleDocument("CycleViewPager.md")
 @RefRegister(title = R.string.view_pager,desc = R.string.view_pager_desc,category = R.string.view_pager)
 class CycleViewPagerSampleActivity : AppCompatActivity() {
     companion object {

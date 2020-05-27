@@ -1,7 +1,7 @@
 ## RecyclerView Adapter
 
 ### 中文文档
-* [Document](README-CN.MD)
+* [Document](readme-cn.md)
 
 > This project support all different kinds of RecyclerView adapter.
 

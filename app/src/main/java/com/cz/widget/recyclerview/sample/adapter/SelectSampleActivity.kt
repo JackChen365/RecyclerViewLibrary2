@@ -18,8 +18,8 @@ import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.adapter.impl.SimpleSelectAdapter
 import kotlinx.android.synthetic.main.activity_select_sample.*
 
-@SampleSourceCode(".*Select.*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/SelectWrapperAdapter.md")
+@SampleSourceCode
+@SampleDocument("SelectWrapperAdapter.md")
 @RefRegister(title=R.string.select_adapter,desc = R.string.select_adapter_desc,category = R.string.adapter)
 class SelectSampleActivity : AppCompatActivity() {
 

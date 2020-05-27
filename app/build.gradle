@@ -46,5 +46,5 @@ dependencies {
     implementation 'com.github.momodae.RecyclerViewLibrary2:adapter:1.0.1'
     implementation 'com.github.momodae.RecyclerViewLibrary2:library:1.0.1'
 
-    implementation "com.github.momodae.AndroidSampleLibrary:library:1.0.6"
+    implementation "com.github.momodae.AndroidSampleLibrary:library:1.0.8"
 }

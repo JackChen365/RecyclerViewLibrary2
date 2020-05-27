@@ -11,8 +11,8 @@ import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.sticky.adapter.StickySample3Adapter
 import kotlinx.android.synthetic.main.activity_sticky_sample3.*
 
-@SampleSourceCode(".*StickySample3.*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/StickyAdapter.md")
+@SampleSourceCode
+@SampleDocument("StickyAdapter.md")
 @RefRegister(title=R.string.sticky_sample3,desc = R.string.sticky_sample3_desc,category = R.string.sticky,priority = 1)
 class StickySample3Activity : AppCompatActivity() {
 

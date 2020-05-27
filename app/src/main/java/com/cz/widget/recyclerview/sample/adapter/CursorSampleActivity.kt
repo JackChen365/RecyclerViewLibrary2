@@ -44,8 +44,8 @@ import kotlinx.android.synthetic.main.activity_adapter_cursor_sample.*
  *   }
  * </pre>
  */
-@SampleSourceCode(".*Cursor.*\\.(java|kt)")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/CursorAdapter.md")
+@SampleSourceCode
+@SampleDocument("CursorAdapter.md")
 @RefRegister(title=R.string.cursor_adapter,desc = R.string.cursor_adapter_desc,category = R.string.adapter)
 class CursorSampleActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<Cursor> {
     companion object{
@@ -74,7 +74,7 @@ class CursorSampleActivity : AppCompatActivity(), LoaderManager.LoaderCallbacks<
             if(null==queryCursor||!queryCursor.moveToFirst()) {
                 //Add a bunch of test data. Never mind if we do all the work in main thread. It's just a test.
                 writableDatabase.beginTransaction()
-                for(i in 0 until 10){
+                for(i in 0 until 100){
                     writableDatabase.execSQL("insert into "+SampleDatabaseHelper.TABLE_NAME+"(log) values(?)", arrayOf("Log:$i"))
                 }
                 writableDatabase.setTransactionSuccessful()

@@ -21,8 +21,8 @@ import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.adapter.impl.ExpandSampleAdapter
 import kotlinx.android.synthetic.main.activity_adapter_expand_sample.*
 
-@SampleSourceCode(".*Expand.*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/ExpandAdapter.md")
+@SampleSourceCode
+@SampleDocument("ExpandAdapter.md")
 @RefRegister(title=R.string.expand_adapter,desc = R.string.expand_adapter_desc,category = R.string.adapter)
 class ExpandSampleActivity : AppCompatActivity() {
 

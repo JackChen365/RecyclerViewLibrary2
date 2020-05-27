@@ -34,8 +34,8 @@ import java.io.File
  * @date 2020-03-18 11:06
  * @email bingo110@126.com
  */
-@SampleSourceCode(".*(Tree|File).*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/TreeAdapter.md")
+@SampleSourceCode
+@SampleDocument("TreeAdapter.md")
 @RefRegister(title=R.string.tree_adapter,desc = R.string.tree_adapter_desc,category = R.string.adapter)
 class TreeSampleActivity : AppCompatActivity() {
     companion object{

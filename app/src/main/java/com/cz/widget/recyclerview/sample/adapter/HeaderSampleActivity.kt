@@ -18,8 +18,8 @@ import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.adapter.impl.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_adapter_header_sample.*
 
-@SampleSourceCode(".*Header.*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/HeaderWrapperAdapter.md")
+@SampleSourceCode
+@SampleDocument("HeaderWrapperAdapter.md")
 @RefRegister(title=R.string.header_adapter,desc = R.string.header_adapter_desc,category = R.string.adapter)
 class HeaderSampleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

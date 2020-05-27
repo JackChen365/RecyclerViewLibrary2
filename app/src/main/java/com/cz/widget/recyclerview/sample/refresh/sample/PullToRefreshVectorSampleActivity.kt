@@ -11,7 +11,7 @@ import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.refresh.SimpleArrayAdapter
 import kotlinx.android.synthetic.main.activity_pull_to_refresh_vector_sample.*
 
-@SampleSourceCode(".*PullToRefreshVectorSampleActivity.*")
+@SampleSourceCode
 @RefRegister(title=R.string.pull_to_refresh_vector,desc = R.string.pull_to_refresh_vector_desc,category = R.string.pull_to_refresh)
 class PullToRefreshVectorSampleActivity : AppCompatActivity() {
 

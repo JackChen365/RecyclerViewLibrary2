@@ -20,8 +20,8 @@ import com.cz.widget.recyclerview.sample.adapter.impl.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_adapter_dynamic_sample.*
 import java.util.*
 
-@SampleSourceCode(".*Dynamic.*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/adapter/document/en/DynamicAdapter.md")
+@SampleSourceCode
+@SampleDocument("DynamicAdapter.md")
 @RefRegister(title=R.string.dynamic_adapter,desc = R.string.dynamic_adapter_desc,category = R.string.adapter)
 class DynamicSampleActivity : AppCompatActivity() {
 

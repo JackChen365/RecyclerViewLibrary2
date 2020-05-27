@@ -10,7 +10,7 @@ import com.cz.widget.recyclerview.sample.adapter.impl.HorizontalSimpleAdapter
 import com.cz.widget.recyclerview.sample.adapter.impl.SimpleAdapter
 import kotlinx.android.synthetic.main.activity_center_layout_manager_sample.*
 
-@SampleSourceCode(".*(CenterLayoutManager|Debug).*")
+@SampleSourceCode
 @RefRegister(title=R.string.center_layout_manager,desc = R.string.center_layout_manager_desc,category = R.string.layout_manager)
 class CenterLayoutManagerSampleActivity : AppCompatActivity() {
 

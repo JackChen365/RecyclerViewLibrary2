@@ -14,7 +14,7 @@ import com.cz.widget.recyclerview.sample.R
 import kotlinx.android.synthetic.main.activity_pull_to_refresh_vector_header_sample.*
 
 
-@SampleSourceCode(".*PullToRefreshVectorHeaderSampleActivity.*")
+@SampleSourceCode
 @RefRegister(title=R.string.pull_to_refresh_header_vector,desc = R.string.pull_to_refresh_vector_header_desc,category = R.string.pull_to_refresh,priority = 1)
 class PullToRefreshVectorHeaderSampleActivity : AppCompatActivity() {
 

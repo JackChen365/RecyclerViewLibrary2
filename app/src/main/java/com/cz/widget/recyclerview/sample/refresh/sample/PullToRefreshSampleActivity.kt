@@ -11,8 +11,8 @@ import com.cz.widget.recyclerview.sample.R
 import com.cz.widget.recyclerview.sample.refresh.SimpleArrayAdapter
 import kotlinx.android.synthetic.main.activity_pull_to_refresh_sample.*
 
-@SampleSourceCode(".*PullToRefreshSampleActivity.*")
-@SampleDocument("https://raw.githubusercontent.com/momodae/RecyclerViewLibrary2/master/pulltorefresh/README.MD")
+@SampleSourceCode
+@SampleDocument("pulltorefresh/readme.md")
 @RefRegister(title=R.string.pull_to_refresh_title1,desc = R.string.pull_to_refresh_desc1,category = R.string.pull_to_refresh)
 class PullToRefreshSampleActivity : AppCompatActivity() {
 

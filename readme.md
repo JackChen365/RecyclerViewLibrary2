@@ -2,7 +2,7 @@
 
 ### Sample file
 
-[APK file](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/file/app-debug_1.0.0.apk?raw=true)
+[APK file](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/file/app-debug.apk?raw=true)
 
 ### Compile
 
@@ -53,7 +53,7 @@ Tips:
 
 ![image1](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/library/image2.gif?raw=true)
 
-Check this document:[readme](library/README.MD)
+Check this document:[readme](library/readme.md)
 
 ### About the PullToRefresh.
 
@@ -66,7 +66,7 @@ Check this document:[readme](library/README.MD)
 ![image4](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/pulltorefresh/image4.gif?raw=true)
 
 
-Check this document:[readme](pulltorefresh/README.MD)
+Check this document:[readme](pulltorefresh/readme.md)
 
 ### About LayoutManager
 * ViewPager
@@ -80,7 +80,7 @@ Check this document:[readme](pulltorefresh/README.MD)
 ![wheel](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/wheel.gif?raw=true)
 
 
-Check this document:[readme](layoutmanager/README.MD)
+Check this document:[readme](layoutmanager/readme.md)
 
 ### About the support adapters.
 
@@ -115,7 +115,7 @@ Check this document:[readme](layoutmanager/README.MD)
 
 ![tree_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/tree_adapter.gif?raw=true)
 
-Check this document:[readme](adapter/README.MD)
+Check this document:[readme](adapter/readme.md)
 
 
 ### Problems
