@@ -2,7 +2,7 @@
 
 ### Sample file
 
-[APK file](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/file/app-debug.apk?raw=true)
+[APK file](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/file/app-debug.apk?raw=true)
 
 ### Compile
 
@@ -49,21 +49,21 @@ Tips:
 
 
 ### About PullToRefreshRecyclerView
-![image1](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/library/image1.gif?raw=true)
+![image1](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/library/image1.gif?raw=true)
 
-![image1](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/library/image2.gif?raw=true)
+![image1](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/library/image2.gif?raw=true)
 
 Check this document:[readme](library/readme.md)
 
 ### About the PullToRefresh.
 
-![image1](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/pulltorefresh/image1.gif?raw=true)
+![image1](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/pulltorefresh/image1.gif?raw=true)
 
-![image2](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/pulltorefresh/image2.gif?raw=true)
+![image2](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/pulltorefresh/image2.gif?raw=true)
 
-![image3](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/pulltorefresh/image3.gif?raw=true)
+![image3](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/pulltorefresh/image3.gif?raw=true)
 
-![image4](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/pulltorefresh/image4.gif?raw=true)
+![image4](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/pulltorefresh/image4.gif?raw=true)
 
 
 Check this document:[readme](pulltorefresh/readme.md)
@@ -73,11 +73,11 @@ Check this document:[readme](pulltorefresh/readme.md)
 * Gallery
 * Wheel
 
-![viewpager](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/viewpager.gif?raw=true)
+![viewpager](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/layoutmanager/viewpager.gif?raw=true)
 
-![gallery](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/gallery.gif?raw=true)
+![gallery](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/layoutmanager/gallery.gif?raw=true)
 
-![wheel](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/layoutmanager/wheel.gif?raw=true)
+![wheel](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/layoutmanager/wheel.gif?raw=true)
 
 
 Check this document:[readme](layoutmanager/readme.md)
@@ -97,23 +97,23 @@ Check this document:[readme](layoutmanager/readme.md)
 * StickyAdapter
 
 
-![cursor_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/cursor_adapter.gif?raw=true)
+![cursor_adapter](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/adapter/cursor_adapter.gif?raw=true)
 
-![drag_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/drag_adapter.gif?raw=true)
+![drag_adapter](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/adapter/drag_adapter.gif?raw=true)
 
-![dynamic_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/dynamic_adapter.gif?raw=true)
+![dynamic_adapter](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/adapter/dynamic_adapter.gif?raw=true)
 
-![expand_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/expand_adapter.gif?raw=true)
+![expand_adapter](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/adapter/expand_adapter.gif?raw=true)
 
-![filter_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/filter_adapter.gif?raw=true)
+![filter_adapter](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/adapter/filter_adapter.gif?raw=true)
 
-![header_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/header_adapter.gif?raw=true)
+![header_adapter](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/adapter/header_adapter.gif?raw=true)
 
-![select_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/select_adapter.gif?raw=true)
+![select_adapter](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/adapter/select_adapter.gif?raw=true)
 
-![sticky_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/sticky_adapter.gif?raw=true)
+![sticky_adapter](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/adapter/sticky_adapter.gif?raw=true)
 
-![tree_adapter](https://github.com/momodae/LibraryResources/blob/master/RecyclerViewLibrary/image/adapter/tree_adapter.gif?raw=true)
+![tree_adapter](https://gitee.com/JackChen2/library-resources/raw/master/RecyclerViewLibrary/image/adapter/tree_adapter.gif?raw=true)
 
 Check this document:[readme](adapter/readme.md)
 
